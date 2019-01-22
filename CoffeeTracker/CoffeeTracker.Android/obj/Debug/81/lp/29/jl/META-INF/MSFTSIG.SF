@@ -1,0 +1,105 @@
+Signature-Version: 1.0
+SHA-256-Digest-Manifest-Main-Attributes: u753HJxN1Eto/mAwQLtMdk4wN0BtT
+ FhFqfTAVgfQLdE=
+SHA-256-Digest-Manifest: MIA0KC3cgnFP1Sdj7zpuX8n9CY4CRj8Rd9nPiNsjTiI=
+Created-By: 1.8.0_112 (Oracle Corporation)
+
+Name: AndroidManifest.xml
+SHA-256-Digest: rBEgFLm8htzlLnqo8Q9Z3JIxkgAkSYxlMA6x6R721aU=
+
+Name: res/values-hu/strings.xml
+SHA-256-Digest: kAOxq+1p/Ff/p4uvRVfwcaBe1uiSoCNbyJfjctKYkrU=
+
+Name: res/values-es/strings.xml
+SHA-256-Digest: zxAuEL91UgYEnwop6FVQ+5gYXpmafvEa+FUoNAN237k=
+
+Name: res/values-cs/strings.xml
+SHA-256-Digest: U4TXLgJ9SqfVSyjLvf3UdHhlNUjBmKEgqbU1Ii5F+ps=
+
+Name: R.txt
+SHA-256-Digest: 9dxnPK48h56FClQdr7AzcWhpk/VcsA3SXOxN+R8rmhk=
+
+Name: res/values-zh-rTW/strings.xml
+SHA-256-Digest: TKRVUuVJ7ZR+U6GvY+6+fjKp2mFKNFBjC4o6x0hd2vc=
+
+Name: res/values-ja/strings.xml
+SHA-256-Digest: tBjRRTCusnR4UgnvB+L8ej0BIDw/6iB8m1SVZqYsDJQ=
+
+Name: res/drawable/offline_startup_app_icon_container.xml
+SHA-256-Digest: 7bFP04DHsNiUzuUMXXZZVnErdUK55v3zvKCJkgPjN/8=
+
+Name: res/values-ru/strings.xml
+SHA-256-Digest: YF1oujE376WwK6bCRMvCyup1yrhgqrxGGMltNfUoBaI=
+
+Name: res/values-sv/strings.xml
+SHA-256-Digest: m0p11AM5xiN4t9nfvSI9uvZnXkMKBwMWr3HNBP7TF2k=
+
+Name: res/raw/intune_mam_manifest.xml
+SHA-256-Digest: G/Vj3JS9IYODx3W0WZ1wblJBXIE67fzRkUBpZBVzKB4=
+
+Name: res/values-el/strings.xml
+SHA-256-Digest: +qZERpSm25IMZ0eqQI16rVvvO7bfDDxh27RG+v3PqQ8=
+
+Name: res/values-nb/strings.xml
+SHA-256-Digest: iUPDCblieWzcpgp3K0UPhRO5EA4zLhkxxpObDfHiNOw=
+
+Name: res/values/dimensions.xml
+SHA-256-Digest: VWIMCbmqHChJa4TYQBEWvremJKq6WymJc55MEXFobxs=
+
+Name: res/values-pt/strings.xml
+SHA-256-Digest: MpQJtT72ZCWYxx2sStTq21ULqbqXj91DoGUwwgXYxok=
+
+Name: res/values-zh/strings.xml
+SHA-256-Digest: B67TOCZX8qMjY7fDA3hHuzsU9BptbM272hyNclqh58A=
+
+Name: res/values-v21/styles.xml
+SHA-256-Digest: aemS6JKrYP7jHxaqxfh1+QkCrto4evqOKosjYKe0eSY=
+
+Name: res/values-fi/strings.xml
+SHA-256-Digest: 4iqjrY1XFsVyz5osjE+vmmDlcSE5qyj+LMvqlRKH350=
+
+Name: res/values-ko/strings.xml
+SHA-256-Digest: IyliSyGfb0rIGk0S4dWEremm/iocxUq80op4SnL3Q4o=
+
+Name: classes.jar
+SHA-256-Digest: x3Ng7k4pon1JF7Pqzg1pHsnP5R62SsUd5mi9KoT6Aqw=
+
+Name: res/values-de/strings.xml
+SHA-256-Digest: x/QmdUEaLq8ogHrCZDzns5ZmdlRpHmPt63zPVXm5gyY=
+
+Name: res/values-nl/strings.xml
+SHA-256-Digest: 5wOg8PxXJIEUmkPeRa2zewycVC0DnJxk1Agagb81qac=
+
+Name: res/values-ro/strings.xml
+SHA-256-Digest: 9+tREFKQCM31Pyi9CdQSaWSML8vAIRuh3EyTqjKzzgo=
+
+Name: res/values-pl/strings.xml
+SHA-256-Digest: F9fen0MOOIl6DFr9/NJJWyz6pMUFwm2VBgQkTewk78c=
+
+Name: res/values-tr/strings.xml
+SHA-256-Digest: Y4B6YBifq50wG+oy+DvthacBtrsIsf8gmfmwnd0imBs=
+
+Name: proguard.txt
+SHA-256-Digest: oywjmmZ1gf44aCkBq5KDKHaZWvA10cUiN2OQXJell1M=
+
+Name: res/layout/wg_offline_startup_blocked.xml
+SHA-256-Digest: qItxRNWAsrauwoI6kBiBH+yBt76gy5B3a9XZ7+q1cKg=
+
+Name: res/values/styles.xml
+SHA-256-Digest: RTmN6GwWAYm6um1gxqwSwPsUzD0e7MiEzPcXD0cf7ok=
+
+Name: res/values-v24/styles.xml
+SHA-256-Digest: EWoSS5DpycbxOWBmHZiqFyV/NsZYSFmfeKk02C3cWT0=
+
+Name: res/values/strings.xml
+SHA-256-Digest: QRi5mU7PliRti1SLWdcmZsEXowfCWngo+jepUZXrMkw=
+
+Name: res/values-da/strings.xml
+SHA-256-Digest: 5maAsrN1JdSZi/hcF8hl6Ea0p/Rj7yC7WC+iU1DbhPU=
+
+Name: res/values-it/strings.xml
+SHA-256-Digest: /hRd6/1W2JWzcFy+6RBHolDxj7yfUo9EDvxiUawo224=
+
+Name: res/values-fr/strings.xml
+SHA-256-Digest: zip5aU1/FkkQhbhDEqsqKlw3lgEsXq4dlq2Y2tQqxbM=
+

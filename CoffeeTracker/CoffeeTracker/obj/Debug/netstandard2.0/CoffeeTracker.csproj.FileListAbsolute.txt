@@ -1,0 +1,13 @@
+C:\Users\maimpone\Source\Repos\CoffeeTracker\CoffeeTracker\CoffeeTracker\bin\Debug\netstandard2.0\CoffeeTracker.deps.json
+C:\Users\maimpone\Source\Repos\CoffeeTracker\CoffeeTracker\CoffeeTracker\bin\Debug\netstandard2.0\CoffeeTracker.dll
+C:\Users\maimpone\Source\Repos\CoffeeTracker\CoffeeTracker\CoffeeTracker\bin\Debug\netstandard2.0\CoffeeTracker.pdb
+C:\Users\maimpone\Source\Repos\CoffeeTracker\CoffeeTracker\CoffeeTracker\obj\Debug\netstandard2.0\CoffeeTracker.csprojAssemblyReference.cache
+C:\Users\maimpone\Source\Repos\CoffeeTracker\CoffeeTracker\CoffeeTracker\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\maimpone\Source\Repos\CoffeeTracker\CoffeeTracker\CoffeeTracker\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\maimpone\Source\Repos\CoffeeTracker\CoffeeTracker\CoffeeTracker\obj\Debug\netstandard2.0\CoffeeTracker.csproj.CoreCompileInputs.cache
+C:\Users\maimpone\Source\Repos\CoffeeTracker\CoffeeTracker\CoffeeTracker\obj\Debug\netstandard2.0\CoffeeTracker.AssemblyInfoInputs.cache
+C:\Users\maimpone\Source\Repos\CoffeeTracker\CoffeeTracker\CoffeeTracker\obj\Debug\netstandard2.0\CoffeeTracker.AssemblyInfo.cs
+C:\Users\maimpone\Source\Repos\CoffeeTracker\CoffeeTracker\CoffeeTracker\obj\Debug\netstandard2.0\CoffeeTracker.dll
+C:\Users\maimpone\Source\Repos\CoffeeTracker\CoffeeTracker\CoffeeTracker\obj\Debug\netstandard2.0\CoffeeTracker.pdb
+C:\Users\maimpone\Source\Repos\CoffeeTracker\CoffeeTracker\CoffeeTracker\obj\Debug\netstandard2.0\HomePage.xaml.g.cs
+C:\Users\maimpone\Source\Repos\CoffeeTracker\CoffeeTracker\CoffeeTracker\obj\Debug\netstandard2.0\XamlC.stamp
