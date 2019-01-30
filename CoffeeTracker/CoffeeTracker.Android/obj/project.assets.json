@@ -25,6 +25,15 @@
           "lib/monoandroid81/Microsoft.IdentityModel.Clients.ActiveDirectory.dll": {}
         }
       },
+      "Microsoft.Intune.MAM.Remapper.Tasks/0.1.4119.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Intune.MAM.Xamarin.Android": "3.0.4035.4"
+        },
+        "build": {
+          "build/MonoAndroid10/Microsoft.Intune.MAM.Remapper.Tasks.targets": {}
+        }
+      },
       "Microsoft.Intune.MAM.Xamarin.Android/3.0.4035.4": {
         "type": "package",
         "dependencies": {
@@ -431,6 +440,27 @@
         "lib/xamarinios10/Microsoft.IdentityModel.Clients.ActiveDirectory.xml",
         "microsoft.identitymodel.clients.activedirectory.4.5.0.nupkg.sha512",
         "microsoft.identitymodel.clients.activedirectory.nuspec"
+      ]
+    },
+    "Microsoft.Intune.MAM.Remapper.Tasks/0.1.4119.2": {
+      "sha512": "vNZQ1F1JLHOhft+DMhqAyvo6sqy+FmtaH8xk5m8AY2yQgEfc6Kbnujb6yoq+//68ISWXfvS1Hcg40hNXE09Z2g==",
+      "type": "package",
+      "path": "microsoft.intune.mam.remapper.tasks/0.1.4119.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/MonoAndroid10/Microsoft.Intune.MAM.Remapper.Core.dll",
+        "build/MonoAndroid10/Microsoft.Intune.MAM.Remapper.Tasks.dll",
+        "build/MonoAndroid10/Microsoft.Intune.MAM.Remapper.Tasks.targets",
+        "build/MonoAndroid10/Mono.Cecil.Mdb.dll",
+        "build/MonoAndroid10/Mono.Cecil.Pdb.dll",
+        "build/MonoAndroid10/Mono.Cecil.Rocks.dll",
+        "build/MonoAndroid10/Mono.Cecil.dll",
+        "build/MonoAndroid10/Newtonsoft.Json.dll",
+        "content/MonoAndroid10/remapping-config.json",
+        "microsoft.intune.mam.remapper.tasks.0.1.4119.2.nupkg.sha512",
+        "microsoft.intune.mam.remapper.tasks.nuspec",
+        "readme.md"
       ]
     },
     "Microsoft.Intune.MAM.Xamarin.Android/3.0.4035.4": {
@@ -1038,6 +1068,7 @@
     "MonoAndroid,Version=v8.1": [
       "CoffeeTracker >= 1.0.0",
       "Microsoft.IdentityModel.Clients.ActiveDirectory >= 4.5.0",
+      "Microsoft.Intune.MAM.Remapper.Tasks >= 0.1.4119.2",
       "Microsoft.Intune.MAM.Xamarin.Android >= 3.0.4035.4",
       "Xamarin.Android.Support.Compat >= 28.0.0",
       "Xamarin.Android.Support.Design >= 28.0.0",
@@ -1088,6 +1119,10 @@
           "Microsoft.IdentityModel.Clients.ActiveDirectory": {
             "target": "Package",
             "version": "[4.5.0, )"
+          },
+          "Microsoft.Intune.MAM.Remapper.Tasks": {
+            "target": "Package",
+            "version": "[0.1.4119.2, )"
           },
           "Microsoft.Intune.MAM.Xamarin.Android": {
             "target": "Package",

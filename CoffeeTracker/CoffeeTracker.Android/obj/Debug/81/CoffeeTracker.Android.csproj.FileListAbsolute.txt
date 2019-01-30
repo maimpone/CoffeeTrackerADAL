@@ -69,7 +69,6 @@ C:\Users\maimpone\Source\Repos\CoffeeTracker\CoffeeTracker\CoffeeTracker.Android
 C:\Users\maimpone\Source\Repos\CoffeeTracker\CoffeeTracker\CoffeeTracker.Android\obj\Debug\81\linksrc\System.Xml.pdb
 C:\Users\maimpone\Source\Repos\CoffeeTracker\CoffeeTracker\CoffeeTracker.Android\obj\Debug\81\linksrc\System.Xml.Linq.pdb
 C:\Users\maimpone\Source\Repos\CoffeeTracker\CoffeeTracker\CoffeeTracker.Android\obj\Debug\81\linksrc\Xamarin.Forms.Core.pdb
-C:\Users\maimpone\Source\Repos\CoffeeTracker\CoffeeTracker\CoffeeTracker.Android\obj\Debug\81\linksrc\Xamarin.Forms.Platform.Android.pdb
 C:\Users\maimpone\Source\Repos\CoffeeTracker\CoffeeTracker\CoffeeTracker.Android\obj\Debug\81\linksrc\Xamarin.Forms.Xaml.pdb
 C:\Users\maimpone\Source\Repos\CoffeeTracker\CoffeeTracker\CoffeeTracker.Android\obj\Debug\81\linksrc\System.Data.pdb
 C:\Users\maimpone\Source\Repos\CoffeeTracker\CoffeeTracker\CoffeeTracker.Android\obj\Debug\81\linksrc\System.Numerics.pdb
@@ -103,6 +102,5 @@ C:\Users\maimpone\Source\Repos\CoffeeTracker\CoffeeTracker\CoffeeTracker.Android
 C:\Users\maimpone\Source\Repos\CoffeeTracker\CoffeeTracker\CoffeeTracker.Android\obj\Debug\81\android\assets\System.Xml.Linq.pdb
 C:\Users\maimpone\Source\Repos\CoffeeTracker\CoffeeTracker\CoffeeTracker.Android\obj\Debug\81\android\assets\System.Xml.pdb
 C:\Users\maimpone\Source\Repos\CoffeeTracker\CoffeeTracker\CoffeeTracker.Android\obj\Debug\81\android\assets\Xamarin.Forms.Core.pdb
-C:\Users\maimpone\Source\Repos\CoffeeTracker\CoffeeTracker\CoffeeTracker.Android\obj\Debug\81\android\assets\Xamarin.Forms.Platform.Android.pdb
 C:\Users\maimpone\Source\Repos\CoffeeTracker\CoffeeTracker\CoffeeTracker.Android\obj\Debug\81\android\assets\Xamarin.Forms.Xaml.pdb
 C:\Users\maimpone\Source\Repos\CoffeeTracker\CoffeeTracker\CoffeeTracker.Android\obj\Debug\81\linksrc\CoffeeTracker.dll.mdb

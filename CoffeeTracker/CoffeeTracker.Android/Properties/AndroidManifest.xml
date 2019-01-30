@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.companyname.CoffeeTracker">
     <uses-sdk android:minSdkVersion="21" android:targetSdkVersion="27" />
-    <application android:label="CoffeeTracker.Android"></application>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+  
+    <application android:label="CoffeeTracker.Android">
+      <meta-data android:name="com.microsoft.intune.mam.DefaultMAMServiceEnrollment" android:value="true" />
+      <meta-data android:name="com.microsoft.intune.mam.MAMPolicyRequired" android:value="true" />
+      <meta-data android:name="com.microsoft.intune.mam.aad.ClientID" android:value="d0be1e04-ce32-4ee9-be6c-1654e7f8061c" />
+      <meta-data android:name="com.microsoft.intune.mam.aad.SkipBroker" android:value="true" />
+      <meta-data android:name="com.microsoft.intune.mam.aad.NonBrokerRedirectURI" android:value="http://localhost" />
+    </application>
+  
 </manifest>

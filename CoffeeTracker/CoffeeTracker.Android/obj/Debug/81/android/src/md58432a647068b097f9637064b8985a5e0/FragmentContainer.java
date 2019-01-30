@@ -2,7 +2,7 @@ package md58432a647068b097f9637064b8985a5e0;
 
 
 public class FragmentContainer
-	extends android.support.v4.app.Fragment
+	extends com.microsoft.intune.mam.client.support.v4.app.MAMFragment
 	implements
 		mono.android.IGCUserPeer
 {
@@ -10,11 +10,11 @@ public class FragmentContainer
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_onCreateView:(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;:GetOnCreateView_Landroid_view_LayoutInflater_Landroid_view_ViewGroup_Landroid_os_Bundle_Handler\n" +
-			"n_onDestroyView:()V:GetOnDestroyViewHandler\n" +
+			"n_onMAMCreateView:(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;:GetOnMAMCreateView_Landroid_view_LayoutInflater_Landroid_view_ViewGroup_Landroid_os_Bundle_Handler\n" +
+			"n_onMAMDestroyView:()V:GetOnMAMDestroyViewHandler\n" +
 			"n_onHiddenChanged:(Z)V:GetOnHiddenChanged_ZHandler\n" +
-			"n_onPause:()V:GetOnPauseHandler\n" +
-			"n_onResume:()V:GetOnResumeHandler\n" +
+			"n_onMAMPause:()V:GetOnMAMPauseHandler\n" +
+			"n_onMAMResume:()V:GetOnMAMResumeHandler\n" +
 			"";
 		mono.android.Runtime.register ("Xamarin.Forms.Platform.Android.AppCompat.FragmentContainer, Xamarin.Forms.Platform.Android", FragmentContainer.class, __md_methods);
 	}
@@ -28,20 +28,20 @@ public class FragmentContainer
 	}
 
 
-	public android.view.View onCreateView (android.view.LayoutInflater p0, android.view.ViewGroup p1, android.os.Bundle p2)
+	public android.view.View onMAMCreateView (android.view.LayoutInflater p0, android.view.ViewGroup p1, android.os.Bundle p2)
 	{
-		return n_onCreateView (p0, p1, p2);
+		return n_onMAMCreateView (p0, p1, p2);
 	}
 
-	private native android.view.View n_onCreateView (android.view.LayoutInflater p0, android.view.ViewGroup p1, android.os.Bundle p2);
+	private native android.view.View n_onMAMCreateView (android.view.LayoutInflater p0, android.view.ViewGroup p1, android.os.Bundle p2);
 
 
-	public void onDestroyView ()
+	public void onMAMDestroyView ()
 	{
-		n_onDestroyView ();
+		n_onMAMDestroyView ();
 	}
 
-	private native void n_onDestroyView ();
+	private native void n_onMAMDestroyView ();
 
 
 	public void onHiddenChanged (boolean p0)
@@ -52,20 +52,20 @@ public class FragmentContainer
 	private native void n_onHiddenChanged (boolean p0);
 
 
-	public void onPause ()
+	public void onMAMPause ()
 	{
-		n_onPause ();
+		n_onMAMPause ();
 	}
 
-	private native void n_onPause ();
+	private native void n_onMAMPause ();
 
 
-	public void onResume ()
+	public void onMAMResume ()
 	{
-		n_onResume ();
+		n_onMAMResume ();
 	}
 
-	private native void n_onResume ();
+	private native void n_onMAMResume ();
 
 	private java.util.ArrayList refList;
 	public void monodroidAddReference (java.lang.Object obj)

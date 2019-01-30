@@ -2,7 +2,7 @@ package md51558244f76c53b6aeda52c8a337f2c37;
 
 
 public class ActionSheetRenderer
-	extends android.app.Dialog
+	extends com.microsoft.intune.mam.client.app.MAMDialog
 	implements
 		mono.android.IGCUserPeer,
 		android.view.View.OnClickListener
@@ -25,14 +25,6 @@ public class ActionSheetRenderer
 		super (p0);
 		if (getClass () == ActionSheetRenderer.class)
 			mono.android.TypeManager.Activate ("Xamarin.Forms.Platform.Android.ActionSheetRenderer, Xamarin.Forms.Platform.Android", "Android.Content.Context, Mono.Android", this, new java.lang.Object[] { p0 });
-	}
-
-
-	public ActionSheetRenderer (android.content.Context p0, boolean p1, android.content.DialogInterface.OnCancelListener p2)
-	{
-		super (p0, p1, p2);
-		if (getClass () == ActionSheetRenderer.class)
-			mono.android.TypeManager.Activate ("Xamarin.Forms.Platform.Android.ActionSheetRenderer, Xamarin.Forms.Platform.Android", "Android.Content.Context, Mono.Android:System.Boolean, mscorlib:Android.Content.IDialogInterfaceOnCancelListener, Mono.Android", this, new java.lang.Object[] { p0, p1, p2 });
 	}
 
 

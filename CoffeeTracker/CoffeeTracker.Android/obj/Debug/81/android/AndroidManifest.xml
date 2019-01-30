@@ -1,10 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.companyname.CoffeeTracker">
   <uses-sdk android:minSdkVersion="21" android:targetSdkVersion="27" />
+  <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+  <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+  <uses-permission android:name="android.permission.USE_CREDENTIALS" />
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-  <application android:label="CoffeeTracker.Android" android:name="android.app.Application" android:allowBackup="true" android:icon="@mipmap/icon" android:debuggable="true">
+  <application android:label="CoffeeTracker.Android" android:name="md5115868a488c0347a1d6fde91402724c7.MAMAppClass" android:allowBackup="true" android:icon="@mipmap/icon" android:debuggable="true">
+    <meta-data android:name="com.microsoft.intune.mam.DefaultMAMServiceEnrollment" android:value="true" />
+    <meta-data android:name="com.microsoft.intune.mam.MAMPolicyRequired" android:value="true" />
+    <meta-data android:name="com.microsoft.intune.mam.aad.ClientID" android:value="d0be1e04-ce32-4ee9-be6c-1654e7f8061c" />
+    <meta-data android:name="com.microsoft.intune.mam.aad.SkipBroker" android:value="true" />
+    <meta-data android:name="com.microsoft.intune.mam.aad.NonBrokerRedirectURI" android:value="http://localhost" />
     <activity android:configChanges="orientation|screenSize" android:icon="@mipmap/icon" android:label="CoffeeTracker" android:theme="@style/MainTheme" android:name="md5115868a488c0347a1d6fde91402724c7.MainActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
@@ -23,5 +31,20 @@
         <category android:name="mono.android.intent.category.SEPPUKU.com.companyname.CoffeeTracker" />
       </intent-filter>
     </receiver>
+    <service android:name="com.microsoft.intune.mam.client.notification.MAMNotificationReceiverService" android:exported="true" android:label="" p6:ignore="ExportedService" xmlns:p6="http://schemas.android.com/tools" />
+    <service android:name="com.microsoft.intune.mam.client.service.MAMBackgroundService" android:exported="false" android:label="" />
+    <service android:name="com.microsoft.intune.mam.client.service.MAMBackgroundJobService" android:permission="android.permission.BIND_JOB_SERVICE" android:exported="false" android:label="" />
+    <receiver android:name="com.microsoft.intune.mam.client.service.MAMBackgroundReceiver">
+      <intent-filter>
+        <action android:name="android.intent.action.DOWNLOAD_COMPLETE" />
+      </intent-filter>
+    </receiver>
+    <activity android:name="com.microsoft.intune.mam.client.app.offline.OfflineStartupBlockedActivity" android:exported="false" android:multiprocess="true" android:theme="@style/MAMActivityBaseTheme" />
+    <activity android:name="com.microsoft.intune.mam.client.app.offline.OfflineRestartRequiredActivity" android:exported="false" android:multiprocess="true" android:theme="@style/MAMActivityBaseTheme" />
+    <activity android:name="com.microsoft.intune.mam.client.app.startup.MAMStartupActivity" android:exported="false" android:multiprocess="true" android:theme="@style/MAMActivityBaseTheme" />
+    <activity android:name="com.microsoft.intune.mam.client.app.resolver.MAMResolverActivity" android:exported="false" android:theme="@style/MAMDialogTheme" />
+    <activity android:name="com.microsoft.intune.mam.client.app.offline.OfflineInstallCompanyPortalDialogActivity" android:exported="false" android:multiprocess="true" android:theme="@style/MAMDialogTheme" />
+    <activity android:name="com.microsoft.intune.mam.client.app.offline.OfflineNotifyWipeActivity" android:exported="false" android:theme="@style/MAMActivityBaseTheme" />
   </application>
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 </manifest>

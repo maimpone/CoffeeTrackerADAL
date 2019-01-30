@@ -110,6 +110,7 @@ class MonoPackageManager_Resources {
 		"CoffeeTracker.dll",
 		"FormsViewGroup.dll",
 		"Microsoft.IdentityModel.Clients.ActiveDirectory.dll",
+		"Microsoft.Intune.Android.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",
 		"Xamarin.Android.Arch.Lifecycle.Common.dll",
 		"Xamarin.Android.Arch.Lifecycle.Runtime.dll",
@@ -131,9 +132,9 @@ class MonoPackageManager_Resources {
 		"Xamarin.Android.Support.v7.RecyclerView.dll",
 		"Xamarin.Android.Support.Vector.Drawable.dll",
 		"Xamarin.Forms.Core.dll",
-		"Xamarin.Forms.Platform.Android.dll",
 		"Xamarin.Forms.Platform.dll",
 		"Xamarin.Forms.Xaml.dll",
+		"Xamarin.Forms.Platform.Android.dll",
 	};
 	public static final String[] Dependencies = new String[]{
 	};

@@ -2,7 +2,7 @@ package md51558244f76c53b6aeda52c8a337f2c37;
 
 
 public class FormsApplicationActivity
-	extends android.app.Activity
+	extends com.microsoft.intune.mam.client.app.MAMActivity
 	implements
 		mono.android.IGCUserPeer
 {
@@ -13,13 +13,13 @@ public class FormsApplicationActivity
 			"n_onBackPressed:()V:GetOnBackPressedHandler\n" +
 			"n_onConfigurationChanged:(Landroid/content/res/Configuration;)V:GetOnConfigurationChanged_Landroid_content_res_Configuration_Handler\n" +
 			"n_onOptionsItemSelected:(Landroid/view/MenuItem;)Z:GetOnOptionsItemSelected_Landroid_view_MenuItem_Handler\n" +
-			"n_onPrepareOptionsMenu:(Landroid/view/Menu;)Z:GetOnPrepareOptionsMenu_Landroid_view_Menu_Handler\n" +
-			"n_onActivityResult:(IILandroid/content/Intent;)V:GetOnActivityResult_IILandroid_content_Intent_Handler\n" +
-			"n_onCreate:(Landroid/os/Bundle;)V:GetOnCreate_Landroid_os_Bundle_Handler\n" +
-			"n_onDestroy:()V:GetOnDestroyHandler\n" +
-			"n_onPause:()V:GetOnPauseHandler\n" +
+			"n_onMAMPrepareOptionsMenu:(Landroid/view/Menu;)Z:GetOnMAMPrepareOptionsMenu_Landroid_view_Menu_Handler\n" +
+			"n_onMAMActivityResult:(IILandroid/content/Intent;)V:GetOnMAMActivityResult_IILandroid_content_Intent_Handler\n" +
+			"n_onMAMCreate:(Landroid/os/Bundle;)V:GetOnMAMCreate_Landroid_os_Bundle_Handler\n" +
+			"n_onMAMDestroy:()V:GetOnMAMDestroyHandler\n" +
+			"n_onMAMPause:()V:GetOnMAMPauseHandler\n" +
 			"n_onRestart:()V:GetOnRestartHandler\n" +
-			"n_onResume:()V:GetOnResumeHandler\n" +
+			"n_onMAMResume:()V:GetOnMAMResumeHandler\n" +
 			"n_onStart:()V:GetOnStartHandler\n" +
 			"n_onStop:()V:GetOnStopHandler\n" +
 			"";
@@ -59,44 +59,44 @@ public class FormsApplicationActivity
 	private native boolean n_onOptionsItemSelected (android.view.MenuItem p0);
 
 
-	public boolean onPrepareOptionsMenu (android.view.Menu p0)
+	public boolean onMAMPrepareOptionsMenu (android.view.Menu p0)
 	{
-		return n_onPrepareOptionsMenu (p0);
+		return n_onMAMPrepareOptionsMenu (p0);
 	}
 
-	private native boolean n_onPrepareOptionsMenu (android.view.Menu p0);
+	private native boolean n_onMAMPrepareOptionsMenu (android.view.Menu p0);
 
 
-	public void onActivityResult (int p0, int p1, android.content.Intent p2)
+	public void onMAMActivityResult (int p0, int p1, android.content.Intent p2)
 	{
-		n_onActivityResult (p0, p1, p2);
+		n_onMAMActivityResult (p0, p1, p2);
 	}
 
-	private native void n_onActivityResult (int p0, int p1, android.content.Intent p2);
+	private native void n_onMAMActivityResult (int p0, int p1, android.content.Intent p2);
 
 
-	public void onCreate (android.os.Bundle p0)
+	public void onMAMCreate (android.os.Bundle p0)
 	{
-		n_onCreate (p0);
+		n_onMAMCreate (p0);
 	}
 
-	private native void n_onCreate (android.os.Bundle p0);
+	private native void n_onMAMCreate (android.os.Bundle p0);
 
 
-	public void onDestroy ()
+	public void onMAMDestroy ()
 	{
-		n_onDestroy ();
+		n_onMAMDestroy ();
 	}
 
-	private native void n_onDestroy ();
+	private native void n_onMAMDestroy ();
 
 
-	public void onPause ()
+	public void onMAMPause ()
 	{
-		n_onPause ();
+		n_onMAMPause ();
 	}
 
-	private native void n_onPause ();
+	private native void n_onMAMPause ();
 
 
 	public void onRestart ()
@@ -107,12 +107,12 @@ public class FormsApplicationActivity
 	private native void n_onRestart ();
 
 
-	public void onResume ()
+	public void onMAMResume ()
 	{
-		n_onResume ();
+		n_onMAMResume ();
 	}
 
-	private native void n_onResume ();
+	private native void n_onMAMResume ();
 
 
 	public void onStart ()
